@@ -55,7 +55,7 @@ class Zusammengesetzte_Chordophone : public Chordophone {
 
 };
 
-class Harfe : public Schlagidiophone {
+class Harfe : public Zusammengesetzte_Chordophone {
 
 public:
 	void bewegeLuft() override {
